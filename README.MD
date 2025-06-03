@@ -21,47 +21,8 @@ DeepSeek Qwen3 8B Model
 
 Maven
 
-🚀 Быстрый старт
-1. Клонировать репозиторий
-   bash
-   Копировать
-   Редактировать
-   git clone https://github.com/your-username/nutriobot.git
-   cd nutriobot
-2. Установить зависимости
-   Используйте Maven:
 
-bash
-Копировать
-Редактировать
-mvn clean install
-3. Настроить конфигурацию
-   Создайте файл src/main/resources/application.properties или класс Config.java со следующими параметрами:
-
-java
-Копировать
-Редактировать
-public class Config {
-public String getBotUsername() {
-return "YOUR_BOT_USERNAME";
-}
-
-    public String getBotToken() {
-        return "YOUR_TELEGRAM_BOT_TOKEN";
-    }
-
-    public String getOpenrouterApiKey() {
-        return "YOUR_OPENROUTER_API_KEY";
-    }
-}
-🔑 Получить токен OpenRouter: https://openrouter.ai/
-
-4. Запуск
-   bash
-   Копировать
-   Редактировать
-   mvn exec:java -Dexec.mainClass="com.example.nutriobot.YourMainClass"
-   📌 Не забудьте зарегистрировать бота у @BotFather
+📌 Не забудьте зарегистрировать бота у @BotFather
 
 💬 Команды бота
 
